@@ -1,5 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background-color: rgba(255,255,255);
 	color: #333;
 }
 
@@ -18,14 +18,16 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	background-color: rgb(0,51,179);
+	color: lightblue;
 	min-height: 100px;
 	margin-top: 60px;
 }
 
 header h1 {
+	font-family: "montserrat";
 	padding: 40px 60px;
+	font-size: 30px
 }
 
 
@@ -34,10 +36,22 @@ nav { background-color: #333; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
+	font-family: "montserrat";
+	background-color: rgb(0,51,179)
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
+nav a { color: lightblue; }
 nav a:hover { color: white; }
+
+h2 {
+	font-family: "montserrat";
+}
+
+ul {
+	font-family: "montserrat";
+	line-height: 20pt
+
+}
 
 
 /* Main styles */
@@ -65,7 +79,7 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: rgb(0,51,179);
 	color: white;
 	text-align: center;
  }
